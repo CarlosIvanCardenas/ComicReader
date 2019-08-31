@@ -2,18 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4639e57-dd59-481c-b2fd-922563934bbd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Chapter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ChapterList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ComicDetails.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Chapter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Chapter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ChapterList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ChapterList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ComicCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ComicCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ComicDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ComicDetails.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ComicList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ComicList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,10 +26,15 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="Routing" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="CREATE_PULL_REQUEST_DEFAULT_BRANCH" value="master" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="CarlosIvanCardenas" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="ComicReader" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -98,7 +98,8 @@
       <workItem from="1566761719437" duration="22169000" />
       <workItem from="1567005838459" duration="12310000" />
       <workItem from="1567044581777" duration="355000" />
-      <workItem from="1567050197621" duration="1145000" />
+      <workItem from="1567050197621" duration="2853000" />
+      <workItem from="1567092795583" duration="14931000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1566852979971</created>
@@ -114,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566853343203</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ChapterList">
+      <created>1567051397304</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1567051397304</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +143,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
+    <MESSAGE value="ChapterList" />
+    <option name="LAST_COMMIT_MESSAGE" value="ChapterList" />
   </component>
 </project>

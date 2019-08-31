@@ -41,7 +41,7 @@ function ComicList() {
                        margin={'normal'}
                        onChange={onSearchInputChange}/>
             <Grid container spacing={4}>
-                {(loading ? Array.from(new Array(20)) : filteredComics).map((item, index) => (
+                {(loading ? Array.from(new Array(12)) : filteredComics).map((item, index) => (
                     <Grid item key={index} xs={6} sm={3}>
                         <ComicCard comic={item} loading={loading}/>
                     </Grid>
