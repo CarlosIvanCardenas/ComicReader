@@ -26,26 +26,29 @@ const ComicDetails = (props) => {
     return (
         <div>
             <Container align="center" style={{padding: 32}}>
-                <Paper>
+                <Paper style={{padding: '24px'}}>
                     {!loading ? (
                         <Fragment>
                             <img alt="manga poster" src={(comic.image ? IMG_URL + comic.image : '/default.gif')}/>
                             <Typography variant="h4">
                                 {comic.title}
                             </Typography>
+                            <br/>
                             <Typography variant="body1">
                                 {comic.description}
                             </Typography>
+                            <br/>
                             <Typography variant="h6">
                                 {"Autor: " + comic.author}
                             </Typography>
+                            <br/>
                             <Typography variant="h6">
                                 {"Artist: " + comic.artist}
                             </Typography>
-                            <ChapterList chapters={comic.chapters}/>
+                            <ChapterList chapters={comic.chapters} comicID={props.match.params.id}/>
                         </Fragment>
                     ) : <Fragment>
-                        <Skeleton variant="rect" width={210} height={118}/>
+                        <Skeleton variant="rect" width={210} height={350}/>
                         <Skeleton width="80%"/>
                         <Skeleton width="80%"/>
                         <Skeleton width="80%"/>
